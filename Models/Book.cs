@@ -5,7 +5,7 @@
         public string Id { get; set; }
         public string Title { get; set; }
         public string Decscription { get; set; }
-        public string ISBN { get; set; }
+        public string ISBN { get; }
         public decimal price { get; set; }
         public string PictureUri { get; set; }
         public int BookAuthorId { get; set; }
